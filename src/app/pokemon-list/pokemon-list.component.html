@@ -1,0 +1,11 @@
+<input (keyup)="search()" [(ngModel)]="query" type="text" placeholder="Search by name" />
+<br />
+
+<div class="pokemonList">
+
+  <app-pokemon-card *ngFor="let pokemon of pokemonsFiltred"
+                    [pokemon]="pokemon"></app-pokemon-card>
+
+</div>
+
+

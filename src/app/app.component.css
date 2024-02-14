@@ -1,0 +1,38 @@
+
+
+
+@media (min-width: 600px) {
+  a {
+    width: 18%;
+    box-sizing: content-box;
+  }
+}
+
+
+
+h2 {
+  text-align: center;
+  color: #452828;
+  font-family: 'Century Gothic';
+  font-size: 35px;
+}
+
+nav {
+  padding: 10px; 
+  text-align: center;
+  border: 1px  ;
+  margin-top: 5px;
+}
+
+  nav a {
+    margin: 0 10px;
+    text-decoration: none;
+    background-color: #573b3b;
+    padding: 12px;
+    font-weight: bold;
+    color: #000000;
+  }
+
+app-pokemon-list {
+  margin-top: 20px; 
+}

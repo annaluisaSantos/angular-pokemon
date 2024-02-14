@@ -1,0 +1,13 @@
+div {
+  text-align: center;
+  margin-top: 40px;
+  margin-bottom: 25px;
+}
+
+h1 {
+  color: #ff0000; /* Cor vermelha para o título */
+}
+
+p {
+  color: #333; /* Cor escura para o texto */
+}
